@@ -1,0 +1,18 @@
+#gameboard{
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#gamecontainer{
+    text-align: center;
+}
+
+#scoretext{
+    font-size: 100px;
+}
+
+#gamename{
+    font-size: 50px;
+}
