@@ -3,18 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pong Game</title>
+    <title>Enhanced Pong Game</title>
     <link rel="stylesheet" href="./ping pong style.css">
 </head>
 <body>
+    <div id="mobileWarning">
+        <h2>⚠️ Desktop Required</h2>
+        <p>This is a 2-player game that requires a keyboard to play.</p>
+        <p>Please open this game on a desktop or laptop computer.</p>
+        <p class="pulse">🎮 Get ready for some retro gaming action! 🎮</p>
+    </div>
+
     <div id="gamecontainer">
         <div>
-            <p id="gamename">Pong Game</p>
+            <h1 id="gamename">PONG GAME</h1>
         </div>
         <canvas id="gameboard" height="600" width="1000"></canvas>
-        <div id="scoretext"></div>
-        <button id="restart">Restart</button>
+        <div id="scoretext">0 : 0</div>
+        <button id="restart">🔄 Restart Game</button>
+        
+        <div class="controls">
+            <div class="player-controls">
+                <h3>Player 1 (Red)</h3>
+                <p>W - Move Up</p>
+                <p>S - Move Down</p>
+            </div>
+            <div class="player-controls">
+                <h3>Player 2 (Blue)</h3>
+                <p>↑ - Move Up</p>
+                <p>↓ - Move Down</p>
+            </div>
+        </div>
     </div>
-        <script src="./ping pong.js"></script>
+    <script src="./ping pong.js"></script>
 </body>
 </html>
